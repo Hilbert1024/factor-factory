@@ -9,7 +9,7 @@ def factorFactoryMain():
     factorInfo = True
     
     Sample = fc.Sample(needDays = 60, pastDays = 20, targetDate = targetDate) # targetDate could be one day or an interval.
-    Sample.factorMain(['factor/Sample/Sample','factor/IVR/IVR'], factorInfo = factorInfo)
+    Sample.factorMain('factor/Sample/Sample', factorInfo = factorInfo)
 
 if __name__ == "__main__":
     factorFactoryMain()

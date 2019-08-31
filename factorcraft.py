@@ -14,7 +14,7 @@ class factorGlobal():
         return
 
 
-# ===== Factor_IVFFIVRDaily =====
+# ===== Factor_Sample =====
 class Sample(factorGlobal):
     """
     Each factor is an object.
