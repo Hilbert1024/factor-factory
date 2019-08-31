@@ -38,3 +38,6 @@ Explanation:
 
 
 <hr>
+
+## Notes
+All data are desensitized. You might establish own database system.
