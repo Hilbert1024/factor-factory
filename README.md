@@ -16,7 +16,7 @@ Explanation:
 </tr>
 <tr>
     <td><b> Back test & Factor test </b></td>
-    <td> Evaluate model & factors. [See details.]<https://github.com/Hilbert1984/Back-test> </td>
+    <td> Evaluate model & factors. <a href="https://github.com/Hilbert1984/Back-test">See details.</a> </td>
 </tr>
 <tr>
     <td><b> Database </b></td>
