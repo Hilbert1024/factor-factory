@@ -4,6 +4,7 @@ Produce factors. Make it quick!
 ## Structure of factor-factory
 ![Structure of factor-factory](https://github.com/Hilbert1984/factor-factory/blob/master/figure/structure_of_factor_factory.jpg)
 
+Explanation:
 <table>
 <tr>
     <td><b> factor factory </b></td>
@@ -15,7 +16,7 @@ Produce factors. Make it quick!
 </tr>
 <tr>
     <td><b> Back test & Factor test </b></td>
-    <td> Evaluate model & factors. </td>
+    <td> Evaluate model & factors. [See details.](https://github.com/Hilbert1984/Back-test) </td>
 </tr>
 <tr>
     <td><b> Database </b></td>
