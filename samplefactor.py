@@ -92,8 +92,8 @@ class factorName(factorGlobal):
             for timeSer in factor.columns:
                 fac = factor.loc[:,timeSer]
                 fac = pd.DataFrame(fac).T
-                fac.columns.name = 'SecuCode'
-                fac.index.name = 'BusDay'
+                fac.columns.name = ''
+                fac.index.name = ''
                 fac = fac.astype(float)
                 fac.to_pickle(savePath + '_{}.pkl'.format(ff.ts2str(timeSer)))
         else:
@@ -105,8 +105,8 @@ class factorName(factorGlobal):
 #                for timeSer in factor.columns:
 #                    fac = factor.loc[:,timeSer]
 #                    fac = pd.DataFrame(fac).T
-#                    fac.columns.name = 'SecuCode'
-#                    fac.index.name = 'BusDay'
+#                    fac.columns.name = ''
+#                    fac.index.name = ''
 #                    fac = fac.astype(float)
 #                    fac.to_pickle(savePath[index] + '_{}.pkl'.format(ff.ts2str(timeSer)))
 #            else:
